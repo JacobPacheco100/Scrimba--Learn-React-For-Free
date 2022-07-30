@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* app */
+
+.App {
+  background: rgb(238, 238, 238);
+  width: 560px;
+
+  margin-inline: auto;
+  margin-top: 50px;
+  border-radius: 15px;
+}
+
+/* navbar */
+
+nav {
+  background: #F55A5A;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 15px 15px 0 0;
+}
+
+.nav--inner {
+  display: flex;
+  align-items: center;
+  margin-inline: auto;
+  padding: 20px;
+}
+
+.nav--inner i {
+  margin-right: 10px;
+}
+
+/* card */
+
+.card-list {
+  width: 93%;
+  margin-inline: auto;
+  margin-top: 50px;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.card img {
+  width: 135px;
+  height: 190px;
+  border-radius: 10px;
+}
+
+.card--info {
+  padding: 0 20px;
+}
+
+.card--location {
+  padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.card--location i{
+  color: #F55A5A;
+  margin-right: 5px;
+}
+
+.card--location span {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1.1;
+  margin-right: 15px;
+}
+
+.card--location a {
+  text-decoration: underline;
+  color: gray;
+}
+
+.card h2 {
+  margin-bottom: 20px;
+}
+
+.card strong {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.card strong, .card p, .card--location a {
+  font-size: .9rem;
+}
+
+.card p {
+  font-weight: 300;
+  line-height: 1.3;
+}
+
+
