@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 2.9825px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav--logo {
+  max-width: 100px;
+}
+
+/* hero */
+section {
+  padding: 20px;
+}
+
+.hero {
+  display: flex;
+
+  max-width: 500px;
+  margin-inline: auto;
+  flex-direction: column;
+}
+
+.hero--gallery {
+  max-width: 400px;
+  align-self: center;
+}
+
+.hero--h1 {
+  margin-bottom: 10px;
+}
+
+.hero--text {
+  margin-top: 0;
+}
+
+/* card */
+
+.card {
+  min-width: 175px;
+  margin-left: 20px;
+  font-size: 12px;
+}
+
+.card--img {
+  background: rgb(212, 212, 212);
+  height: 220px;
+  width: 100%;
+  position: relative;
+  border-radius: 10px;
+}
+
+.card--img img {
+  width: 100%;
+  height: 100%;
+}
+
+.card--img span {
+  position: absolute;
+  padding: 4px;
+  background: white;
+  text-transform: uppercase;
+  font-size: .6rem;
+  top: 10px;
+  left: 10px;
+}
+
+.card p {
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.card--ratings {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.card--ratings i{
+  margin-right: 5px;
+  color: rgb(235, 39, 127);
+}
+
+.card--ratings em{
+  color: gray;
+  font-size: .9rem;
+}
+
+/* img section */
+
+.cards-list {
+  display: flex;
+  align-items: baseline;
+  overflow-x: scroll;
+  max-width: 600px;
+  margin-inline: auto;
+}
